@@ -1,3 +1,3 @@
 ## Personal Portfolio
 
-This is a code repository for MY portfolio 
+This is the code repository for my portfolio 
