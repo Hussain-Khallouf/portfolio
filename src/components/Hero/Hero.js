@@ -1,25 +1,32 @@
-import React from 'react';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, Img } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection, Img } from "./HeroStyles";
 
 const Hero = (props) => (
   <>
-    <Section row nopadding>
+    <Section row nopadding lg_col>
       <LeftSection>
         <SectionTitle main center nopadding>
           Hussain Riad Khallouf
         </SectionTitle>
         <SectionText>
-        An AI Engineer and Backend Developer with a passion for learning and achievement, Outstanding time management and organizational abilities, eager to be challenged to grow and improve my skills.
+          An AI Engineer and Backend Developer with a passion for learning and
+          achievement, Outstanding time management and organizational abilities,
+          eager to be challenged to grow and improve my skills.
         </SectionText>
-        <Link  href="#about"><Button >Learn More</Button></Link>
+        <Link href="#about">
+          <Button>Learn More</Button>
+        </Link>
       </LeftSection>
+      <Img src="/images/picofme.png" />
     </Section>
-    <Img src="/images/picofme.png"/>
-
   </>
 );
 
