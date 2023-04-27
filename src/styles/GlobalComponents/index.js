@@ -10,8 +10,8 @@ export const Section = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  align-items: ${(props) => (props.lg_col ? "center" : "unset")};
   @media ${(props) => props.theme.breakpoints.xl} {
-    align-items: ${(props) => (props.lg_col ? "center" : "unset")};
   }
   @media ${(props) => props.theme.breakpoints.lg} {
     flex-direction: ${(props) => (props.lg_col ? "column" : "row")};
