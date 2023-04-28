@@ -35,19 +35,7 @@ const Technologies = () => (
       Back-end To Design
     </SectionText>
     <List>
-      {/* <ListItem>
-        <picture>
-          <DiReact size="5rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            Experiece with <br />
-            React.js
-          </ListParagraph>
-        </ListContainer>
-      </ListItem> */}
-
+  
       <ListItem>
         <picture>
           <DiLinux size="5rem" />
@@ -55,7 +43,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Linux OS</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Very well experience with <br />
+            Linux/Unix OS
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -67,7 +56,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Django </ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Experience with  <br />
+            MVC projects by Django
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -79,7 +69,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Node Js</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            Well-versed with  <br />
+            high scalable Node JS APIs.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -92,7 +83,7 @@ const Technologies = () => (
           <ListTitle>Postgresql DB</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            SQL Databases.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -104,8 +95,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Docker</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            tools like Figma
+          Well-versed with <br />
+            Containerization.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -117,7 +108,7 @@ const Technologies = () => (
           <ListTitle>Redis Server</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            Cache server.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -129,7 +120,7 @@ const Technologies = () => (
           <ListTitle>Github </ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            Version Controls Git/GitHub.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -142,7 +133,7 @@ const Technologies = () => (
           <ListTitle>Firebase </ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            therd-party frameworks.
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -154,8 +145,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Python </ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node and Databases
+            High Experience with <br />
+            Optimize, Readable, and Scalable code.  
           </ListParagraph>
         </ListContainer>
       </ListItem>
