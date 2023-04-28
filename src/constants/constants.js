@@ -11,7 +11,7 @@ export const projects = [
   },
 
   {
-    title: "BCC",
+    title: "BCC.com",
     description:
       "A Websit and Admin Control Panel for BCC company. the admin can manage the website content, customize projects and receive customer emails, on the other hand the custems can browse projects, products and companu details.",
     image: "/images/bcc.png",
@@ -41,7 +41,7 @@ export const projects = [
     id: 4,
   },
   {
-    title: "Self Driver Car",
+    title: "Self Driving Car",
     description:
       "A prototype of a self-driving car using AI technologies, was built by Raspberry Pi powered by Robotic Operating System (ROS).",
     image: "/images/car.jpg",
